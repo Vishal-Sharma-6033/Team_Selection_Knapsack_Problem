@@ -16,6 +16,7 @@ document.querySelectorAll('.bg-green-600').forEach((button, index) => {
     });
 });
 
+
 document.getElementById('calculate-team').addEventListener('click', () => {
     const budget = 10; // Example budget
     const bestTeam = knapsack(selectedPlayers, budget);
